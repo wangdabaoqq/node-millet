@@ -23,4 +23,4 @@
 最后放下图片前台与后台的
 ![](https://github.com/wangdabaoqq/node-millet/blob/master/screenshots/Q.png)
 
-![](https://github.com/wangdabaoqq/node-millet/blob/master/screenshots/q.png)
+![](https://github.com/wangdabaoqq/node-millet/blob/master/screenshots/a.png)
