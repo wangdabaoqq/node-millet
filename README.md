@@ -20,5 +20,7 @@
 
 个人能力有限,水平有限。见笑了。那我就告辞了。
 对了这个项目我还在不断的去更新中,后续的我也会即时跟进的。拜了个拜您！
-
+最后放下图片前台与后台的
 ![](https://github.com/wangdabaoqq/node-millet/blob/master/screenshots/Q.png)
+
+![](https://github.com/wangdabaoqq/node-millet/blob/master/screenshots/q.png)
