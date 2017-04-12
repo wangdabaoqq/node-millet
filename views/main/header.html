@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta name="description" content="小米商城直营小米公司旗下所有产品，囊括小米手机系列小米MIX、小米Note 2，红米手机系列红米Note 4、红米4，智能硬件，配件及小米生活周边，同时提供小米客户服务及售后支持。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="/public/js/index.js" type="text/javascript"></script>
+    <script data-main="/public/js/main.js" src="/public/js/require.js" type="text/javascript"></script>
+    <link href="http://olx5f4b93.bkt.clouddn.com/favicon.ico" rel="shortcut icon" />
+    <link href="/public/css/login.css" rel="stylesheet" />
+    <link href="/public/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/public/css/top.css" type="text/css" />
+    <title>小米商城-小米官方网站，小米手机、红米手机、小米电视正品专卖</title>
+    <style>
+        /****************SVG库*****************/
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: 0.1px;
+            -moz-osx-font-smoothing: grayscale
+        }
+        @font-face {
+            font-family: 'iconfont';  /* project id 225546 */
+            src: url('//at.alicdn.com/t/font_5enq4ihiwtf647vi.eot');
+            src: url('//at.alicdn.com/t/font_5enq4ihiwtf647vi.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_5enq4ihiwtf647vi.woff') format('woff'),
+            url('//at.alicdn.com/t/font_5enq4ihiwtf647vi.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_5enq4ihiwtf647vi.svg#iconfont') format('svg');
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav">
+    <div class="conten">
+        <div class="nav2">
+            <a href="">小米网</a>
+            <span class="sep">|</span>
+            <a href="">MIUI</a>
+            <span class="sep">|</span>
+            <a href="">米聊</a>
+            <span class="sep">|</span>
+            <a href="">多看阅读</a>
+            <span class="sep">|</span>
+            <a href="">云服务</a>
+            <span class="sep">|</span>
+            <a href="">小米网移动版</a>
+            <span class="sep">|</span>
+            <a href="">问题反馈</a>
+            <span class="sep">|</span>
+            <a href="">Select Region</a>
+            <span class="sep">|</span>
+        </div>
+        <div class="nav-right" id="right">
+            <a href="javascript:;" class="hc"> <i class="iconfont"></i> 购物车 <span class="num">（0）</span> </a>
+            <div class="yc" style="display:none;" id="xs">
+                <div class="loading">
+                    购物车中还没有商品,赶紧选购把！
+                </div>
+            </div>
+        </div>
+        {% if userInfo._id %}
+        <div class="xxa">
+     <span class="user"> <a href="" class="user_i"> <span class="username">{{userInfo.username}}</span> <span class="glyphicon glyphicon-chevron-down text-top"></span> </a>
+      <ul id="mm" style="display: none">
+       <li> <a href="/personal" target="_blank">个人中心</a> </li>
+       <li> <a href="" target="_blank">评价晒单</a> </li>
+       <li> <a href="" target="_blank">我的喜欢</a> </li>
+       <li> <a href="" target="_blank">小米账户</a> </li>
+       <li> <a href="javascript:;" id="logout">退出登录</a> </li>
+      </ul> </span>
+            <span class="sep">|</span>
+            <span class="message"> <a href=""> 消息通知 </a> </span>
+            <span class="sep">|</span>
+            <a href="" class="link link-order"> 我的订单 </a>
+        </div> {% else %}
+        <div class="zc">
+            <a href="/login" class="dl">登录</a>
+            <span class="sep">|</span>
+            <a href="/register" class="dl">注册</a>
+        </div> {%endif%}
+    </div>
+</div>
+<div class="nav-header" id="e1">
+    <div class="conten">
+        <div class="header-logo">
+            <a href="" class="logo ir" title="小米官网">小米官网</a>
+            <div class="wel wel520" style="display:block">
+                <a href="" class="block">看直播</a>
+            </div>
+        </div>
+        <div class="tou-nav">
+            <ul class="nav-list clear">
+                <li class="nav-type"> <a href="" class="link-type"> <span>全部商品分类</span> </a>
+                    <div class="nav-style" id="aq">
+                        <ul class="nav-type-list  clear" id="shou">
+                            <li class="type-item"> <a href="firstSubitems.html" class="title"> 手机 平板 电话卡 <i class="iconfont"></i> </a>
+                                <div class="zi zi-z clear" id="zz">
+                                    <ul class="zi-1" id="sj">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"  data-original="http://olx5f4b93.bkt.clouddn.com/mi5bar80.jpg" class="tu lazy" width="40" height="40"/> <span class="text">小米手机</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"  data-original="http://olx5f4b93.bkt.clouddn.com/4sbar80.jpg" class="tu lazy" width="40" height="40" /> <span class="text">小米4s</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"  data-original="http://olx5f4b93.bkt.clouddn.com/maxbar80.jpg" class="tu lazy" width="40" height="40" /> <span class="text">小米Max</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"  data-original="http://olx5f4b93.bkt.clouddn.com/4sbar80.jpg" class="tu lazy" width="40" height="40" /> <span class="text">小米Note</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"  data-original="http://olx5f4b93.bkt.clouddn.com/mi4.jpg" class="tu lazy" width="40" height="40" /> <span class="text">小米手机4</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"  data-original="http://olx5f4b93.bkt.clouddn.com/mi4c.jpg" class="tu lazy" width="40" height="40" /> <span class="text">小米手机4C</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                    </ul>
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/note3.jpg" class="tu lazy" width="40" height="40" /> <span class="text">小米手机</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hongmi3.jpg" class="tu lazy" width="40" height="40" /> <span class="text">红米手机3</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/pad2.png" class="tu lazy" width="40" height="40" /> <span class="text">小米平板2</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/telcom.jpg" class="tu lazy" width="40" height="40" /> <span class="text">电信版</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/heyue.jpg" class="tu lazy" width="40" height="40" /> <span class="text">合约机</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/compare.jpg" class="tu lazy" width="40" height="40" /> <span class="text">对比手机</span> </a> <a href="" class="btn yanse btn2 btn1">选购</a> </li>
+                                    </ul>
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mimobile.jpg" class="tu lazy" /> <span class="text">小米移动 电话卡</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item"> <a href="secondSubitems.html" class="title"> 电视 盒子 <i class="iconfont"></i> </a>
+                                <div class="zi clear" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/4380side.jpg" class="tu lazy" /> <span class="text">小米电视 43英寸</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mitv3s48.jpg" class="tu lazy" /> <span class="text">小米电视 48英寸</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/tv3-55.jpg" class="tu lazy" /> <span class="text">小米电视 55英寸</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/tv60.jpg" class="tu lazy" /> <span class="text">小米电视 60英寸</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/tv60.jpg" class="tu lazy" /> <span class="text">小米电视 65英寸</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/tv60.jpg" class="tu lazy" /> <span class="text">小米电视 70英寸</span> </a> </li>
+                                    </ul>
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/tvzj.jpg" class="tu lazy" /> <span class="text">小米电视 主机</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hezizengqiangban80side.jpg" class="tu lazy" /> <span class="text">小米盒子3 增强版</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hezis.jpg" class="tu lazy" /> <span class="text">小米盒子3</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hezimini.jpg" class="tu lazy" /> <span class="text">小米盒子mini</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/diyinpao.jpg" class="tu lazy" /> <span class="text">小米低音炮</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/shb.jpg" class="tu lazy" /> <span class="text">蓝牙手柄</span> </a> </li>
+                                    </ul>
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/zuheyinxiang80side.jpg" class="tu lazy" /> <span class="text">家庭音响</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/dianshipeijian.jpg" class="tu lazy" /> <span class="text">电视盒子配件</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item"> <a href="thirdlySubitems.html" class="title"> 路由器 智能配件 <i class="iconfont"></i> </a>
+                                <div class="zi clear" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/luyouqi-80.jpg" class="tu lazy" /> <span class="text">小米路由器</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/scooter.jpg" class="tu lazy" /> <span class="text">九号平衡车</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/dianfanbao-80.jpg" class="tu lazy" /> <span class="text">米家压力IH压力锅</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/yicamera.jpg" class="tu lazy" /> <span class="text">运动相机</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/shoubiao3-80.jpg" class="tu lazy" /> <span class="text">米兔儿童电话手表</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/xueyaji-80.jpg" class="tu lazy" /> <span class="text">血压计</span> </a> </li>
+                                    </ul>
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/air2.jpg" class="tu lazy" /> <span class="text">空气净化器2</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/jingshuiqiandlvxin-80.jpg" class="tu lazy" /> <span class="text">净化器及滤芯</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/xiaoyi.jpg" class="tu lazy" /> <span class="text">摄像机</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/zhinengdeng-80.jpg" class="tu lazy" /> <span class="text">智能灯</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/socket80side.jpg" class="tu lazy" /> <span class="text">智能插座 基础班</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-s="images/zhinengjiatingtaozhuang-80.jpg" class="tu lazy" /> <span class="text">智能家庭组合</span> </a> </li>
+                                    </ul>
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/lvxin80.jpg" class="tu lazy" /> <span class="text">净化器滤芯</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/shouhuan.jpg" class="tu lazy" /> <span class="text">手环及配件</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item"> <a href="" class="title"> 移动电源 插线板 <i class="iconfont"></i> </a>
+                                <div class="zi clear zi_1" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/dianyuan.jpg" class="tu lazy" /> <span class="text">小米移动电源</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/powerscript.jpg" class="tu lazy" /> <span class="text">小米插线板</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/yidongdianyuan.jpg" class="tu lazy" /> <span class="text">品牌移动电源</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/dianyuanfujian.jpg" class="tu lazy" /> <span class="text">移动电源附件</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item"> <a href="" class="title"> 耳机 音箱 <i class="iconfont"></i> </a>
+                                <div class="zi clear" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/headphone.jpg" class="tu lazy" /> <span class="text">小米耳戴式耳机</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/quantie.jpg" class="tu lazy" /> <span class="text">小米圈铁耳机</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/jiaonang80.jpg" class="tu lazy" /> <span class="text">小米胶囊耳机</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/jichuban-80.jpg" class="tu lazy" /> <span class="text">小米活塞耳机 基础版</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/bluetoothheadset.jpg" class="tu lazy" /> <span class="text">小米蓝牙耳机</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/erji.jpg" class="tu lazy" /> <span class="text">品牌耳机</span> </a> </li>
+                                    </ul>
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/pocketaudio.png" class="tu lazy" /> <span class="text">小米蓝牙音箱</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/suishen-80.jpg" class="tu lazy" /> <span class="text">小米随身蓝牙音箱</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/xiaogangpao2-hei-80.jpg" class="tu lazy" /> <span class="text">小钢炮音箱2</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/qignchungangpao-80.jpg" class="tu lazy" /> <span class="text">小钢炮音箱 青春版</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/fanghezi.jpg" class="tu lazy" /> <span class="text">小米方盒子音箱</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/radio80side.jpg" class="tu lazy" /> <span class="text">网络收音机</span> </a> </li>
+                                    </ul>
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/pinpaiyinxiang.jpg" class="tu lazy" /> <span class="text">品牌音箱</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item"> <a href="" class="title"> 电池 储存卡 <i class="iconfont"></i> </a>
+                                <div class="zi clear zi_1" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/5Battery1.jpg" class="tu lazy" /> <span class="text">彩虹5号电池</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/7Battery1.jpg" class="tu lazy" /> <span class="text">彩虹7号电池</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/dianchi.jpg" class="tu lazy" /> <span class="text">电池</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/chongdianqi-80.jpg" class="tu lazy" /> <span class="text">充电器</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/xiancai.jpg" class="tu lazy" /> <span class="text">线材</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/cunchu.jpg" class="tu lazy" /> <span class="text">储存卡</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item"> <a href="" class="title"> 保护套 后盖 <i class="iconfont"></i> </a>
+                                <div class="zi clear zi_1" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/baohu.jpg" class="tu lazy" /> <span class="text">保护套/保护壳</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hougai.jpg" class="tu lazy" /> <span class="text">后盖</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item"> <a href="" class="title"> 贴膜 其他配件 <i class="iconfont"></i> </a>
+                                <div class="zi clear zi_1" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/tiemo.jpg" class="tu lazy" /> <span class="text">贴膜</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/zipaigan.jpg" class="tu lazy" /> <span class="text">自拍杆</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/tizhi.jpg" class="tu lazy" /> <span class="text">贴纸</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/fangchensai.jpg" class="tu lazy" /> <span class="text">防尘塞</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/zhijia.jpg" class="tu lazy" /> <span class="text">手机支架</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/wifi.jpg" class="tu lazy" /> <span class="text">随身WIFI</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item"> <a href="" class="title"> 米兔 服装 <i class="iconfont"></i> </a>
+                                <div class="zi clear zi_1" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mitu-80.jpg" class="tu" /> <span class="text">米兔</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/fuzhuang-80.jpg" class="tu lazy" /> <span class="text">服装</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                            <li class="type-item" id="jb"> <a href="" class="title"> 箱包 其他周边 <i class="iconfont"></i> </a>
+                                <div class="zi clear zi_1" id="zz">
+                                    <ul class="zi-1">
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/xiangbao-80.jpg" class="tu lazy" /> <span class="text">箱包</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/lvxingxiang.jpg" class="tu lazy" /> <span class="text">90分旅行箱</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/shubiaodian-80.jpg" class="tu lazy" /> <span class="text">小米鼠标垫</span> </a> </li>
+                                        <li class="start-5"> <a href="" class="link"><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/zhoubian1.jpg" class="tu lazy" /> <span class="text">生活周边</span> </a> </li>
+                                    </ul>
+                                </div> </li>
+                        </ul>
+                    </div> </li>
+                <li class="nav-item"> <a href="javascript:void(0)" class="link"> <span class="text">小米手机</span> <span></span> </a> </li>
+                <li class="nav-item"> <a href="javascript: void(0);" class="link"> <span class="text">红米</span> <span></span> </a> </li>
+                <li class="nav-item"> <a href="javascript: void(0);" class="link"> <span class="text">平板</span> <span></span> </a> </li>
+                <li class="nav-item"> <a href="javascript: void(0);" class="link"> <span class="text">电视</span> <span></span> </a> </li>
+                <li class="nav-item"> <a href="javascript: void(0);" class="link"> <span class="text">盒子 &middot; 影音</span> <span></span> </a> </li>
+                <li class="nav-item"> <a href="javascript: void(0);" class="link"> <span class="text">路由器</span> <span></span> </a> </li>
+                <li class="nav-item"> <a href="javascript: void(0);" class="link"> <span class="text">智能硬件</span> <span></span> </a> </li>
+                <li class="nav-item"> <a href="javascript: void(0);" class="link"> <span class="text">服务</span> </a> </li>
+                <li class="nav-item"> <a href="javascript: void(0);" class="link"> <span class="text">社区</span> </a> </li>
+            </ul>
+        </div>
+        <div class="header-search">
+            <form class="search-form  clear" id="sz">
+                <label class="hide">站内搜索</label>
+                <input class="search-text" type="search" name="sec" id="name" />
+                <input type="submit" class="search-btn iconfont" value="" />
+                <div class="search-wz" id="wz">
+                    <a href="">小米手机4c</a>
+                    <a href="">平衡车</a>
+                </div>
+                <div class="sous hide" id="sous">
+                    <ul class="list-type">
+                        <li> <a href=""> 小米手机5 <span class="result">约有8件</span> </a> </li>
+                        <li> <a href=""> 空气净化器2 <span class="result">约有1件</span> </a> </li>
+                        <li> <a href=""> 活塞耳机 <span class="result">约有3件</span> </a> </li>
+                        <li> <a href=""> 小米路由器 <span class="result">约有8件</span> </a> </li>
+                        <li> <a href=""> 移动电源 <span class="result">约有26件</span> </a> </li>
+                        <li> <a href=""> 运动相机 <span class="result">约有1件</span> </a> </li>
+                        <li> <a href=""> 小蚁摄像机 <span class="result">约有2件</span> </a> </li>
+                        <li> <a href=""> 小米体重秤 <span class="result">约有1件</span> </a> </li>
+                        <li> <a href=""> 小米插线板 <span class="result">约有13件</span> </a> </li>
+                        <li> <a href=""> 配件优惠套装 <span class="result">约有31件</span> </a> </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="Menu" class="header-menu" style="display:none;">
+        <div class="conten">
+            <ul class="lieb clear">
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/maxdingbu!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米Max</a>
+                    </div> <p class="jia">1499元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mi5!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米手机5</a>
+                    </div> <p class="jia">1999元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mi4s!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米手机4S</a>
+                    </div> <p class="jia">1699元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mi4c!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米手机4c</a>
+                    </div> <p class="jia">1099元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mi4!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米手机4</a>
+                    </div> <p class="jia">1299元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/minote!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米Note标准版</a>
+                    </div> <p class="jia">1499元</p> </li>
+            </ul>
+        </div>
+    </div>
+    <!--/*小米手机*/-->
+    <div class="header-menu" id="Menu" style="display:none;">
+        <div class="conten">
+            <ul class="lieb clear">
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/note3!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">红米note3</a>
+                    </div> <p class="jia">899元起</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hongmi3!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">红米手机3</a>
+                    </div> <p class="jia">699元起</p> </li>
+            </ul>
+        </div>
+    </div>
+    <!--/*红米手机*/-->
+    <div class="header-menu" id="Menu" style="display:none;">
+        <div class="conten">
+            <ul class="lieb clear">
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mipad2-16!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米平板2 16GB</a>
+                    </div> <p class="jia">999元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mipad2-64!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米平板2 64GB</a>
+                    </div> <p class="jia">1299元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mipad2-64-win!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米平板2 64GB Windows版</a>
+                    </div> <p class="jia">1299元</p> </li>
+            </ul>
+        </div>
+    </div>
+    <!--/*平板*/-->
+    <div class="header-menu" id="Menu" style="display:none;">
+        <div class="conten">
+            <ul class="lieb clear">
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mitv3s-43!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米电视3S 43英寸</a>
+                    </div> <p class="jia">1799元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mitv3s48!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米电视3S 48英寸小米手机5</a>
+                    </div> <p class="jia">1999元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mitv355!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米电视3 55英寸</a>
+                    </div> <p class="jia">3999元起</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mitv3-60!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米电视3 60英寸</a>
+                    </div> <p class="jia">4999元起</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mitv3s-65!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米电视3S 65英寸 曲面4</a>
+                    </div> <p class="jia">8999元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/mitv70!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米电视3 70英寸</a>
+                    </div> <p class="jia">9999元</p> </li>
+            </ul>
+        </div>
+    </div>
+    <!--/*电视*/-->
+    <div class="header-menu" id="Menu" style="display:none;">
+        <div class="conten">
+            <ul class="lieb clear">
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hezimini.png" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米盒子mini版</a>
+                    </div> <p class="jia">199元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hezi3.png" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米盒子3</a>
+                    </div> <p class="jia">299元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/hezi3s!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米盒子3 增强版</a>
+                    </div> <p class="jia">399元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/zhuji!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米电视主机</a>
+                    </div> <p class="jia">999元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/jinshuban!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米家庭音响 金属版</a>
+                    </div> <p class="jia">899元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/putonban!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米家庭音响 标准版</a>
+                    </div> <p class="jia">699元</p> </li>
+            </ul>
+        </div>
+    </div>
+    <!--/*盒子 影音”*/-->
+    <div class="header-menu" id="Menu" style="display:none;">
+        <div class="conten">
+            <ul class="lieb clear">
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/miwifi!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">全新小米路由器</a>
+                    </div> <p class="jia">699元起</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/miwifi-3!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米路由器 3</a>
+                    </div> <p class="jia">149元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/miwifimini!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米路由器 mini</a>
+                    </div> <p class="jia">129元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/miwifilite!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米路由器 青春版</a>
+                    </div> <p class="jia">79元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/wifiExtension!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米WiFi放大器</a>
+                    </div> <p class="jia">39元</p> </li>
+            </ul>
+        </div>
+    </div>
+    <!--/*路由器*/-->
+    <div class="header-menu" id="Menu" style="display:none;">
+        <div class="conten">
+            <ul class="lieb clear">
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/dianfanbao!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">米家压力IH电饭煲</a>
+                    </div> <p class="jia">999元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/scooter!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">九号平衡车</a>
+                    </div> <p class="jia">1999元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/air2!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">小米空气净化器 2</a>
+                    </div> <p class="jia">699元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/scale!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">体重秤</a>
+                    </div> <p class="jia">99元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/xiaoyi!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">摄像机</a>
+                    </div> <p class="jia">149元</p> </li>
+                <li>
+                    <div class="xs">
+                        <a href=""><img src="http://www.jq22.com/demo/jsloading-141022114841/images/blank.gif" alt="pic"   data-original="http://olx5f4b93.bkt.clouddn.com/smart!160x110.jpg" width="160" height="110" /> </a>
+                    </div>
+                    <div class="title">
+                        <a href="">查看全部<br />智能硬件</a>
+                    </div> </li>
+            </ul>
+        </div>
+    </div>
+    <!--/*智能硬件*/-->
+</div>
+</body>
+</html>

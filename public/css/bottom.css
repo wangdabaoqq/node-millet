@@ -1,0 +1,148 @@
+.foot .foot-ss{
+	padding:27px 0; 
+	border-bottom:1px solid #e0e0e0;
+}
+.foot .foot-list{
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+.foot .foot-list li:first-child{
+	border-left:0;
+}
+.foot .foot-list li{
+	float:left; 
+	width:19.8%; 
+	height:25px; 
+	border-left:1px solid #e0e0e0; 
+	font-size:16px; 
+	line-height:25px; 
+	text-align:center;
+}
+.foot .foot-list a{
+	color:#616161; 
+	transition:all color .2s;
+}
+.foot .foot-list a:hover{
+	color:#ff6700;
+}
+.foot .foot-list .iconfont{
+	margin-right:6px; 
+	font-size:24px; 
+	line-height:24px; 
+	vertical-align:-2px;
+} 
+.foot-link{
+	padding:40px 0;
+}
+.foot .foot-link .bb-links{
+	float:left; 
+	width:160px; 
+	height:112px; 
+	margin:0;
+}
+.foot .foot-link .bb-links dt{
+	margin:-1px 0 26px; 
+	font-size:14px; 
+	line-height:1.25; 
+	color:#424242;
+}
+.foot .foot-link .bb-links dd{
+	margin:10px 0 0;
+	font-size:12px;
+}
+.foot .foot-link .bb-links a{
+	color:#757575;
+}
+.foot .foot-link .bb-links a:hover{
+	color:#ff6700;
+}
+.foot .foot-link .bb-con{
+	float:right; 
+	width:251px; 
+	height:112px; 
+	border-left:1px solid #e0e0e0; 
+	text-align:center; 
+	color:#616161;
+}
+.foot .foot-link .bb-con p{
+	margin: 0 0 16px; 
+	font-size:12px;
+}
+.foot .foot-link .bb-con .dianh{
+	margin:0 0 5px; 
+	font-size:22px; 
+	line-height:1; 
+	color:#ff6700;
+} 
+.btn2{
+	border-color:#ff6700; 
+	background:#fff; 
+	color:#ff6700;
+}
+.btn2:hover{
+	color:#fff; 
+	background-color:#f25807; 
+	border-color:#f25807;
+}
+.site-info{
+	padding:30px 0; 
+	font-size:12px; 
+	background:#fafafa;
+}
+.site-info .logo{
+	float:left; 
+	width:57px; 
+	height:57px; 
+	margin-right:10px; 
+	background:url(/public/images/logo-footer.png) no-repeat 50% 50%;
+}
+.ir{
+	display:block; 
+	text-align:left; 
+	text-indent:-9999em; 
+	overflow:hidden;
+}
+.site-info .sit-text{
+	float:left; 
+	color:#b0b0b0;
+}
+.site-info .sit-text a:hover{
+	color:#ff6700;
+}
+.site-info .sit-text p{
+	margin:0; 
+	line-height:18px;
+}
+.site-info .sit-text .sites a{
+	color:#757575;
+}
+.site-info .sit-text .sites a:hover{
+	color:#ff6700;
+}
+.site-info .sit-text a{
+	color:#b0b0b0;
+}
+
+
+.site-info .into-link{
+	float:right; 
+	height:28px; 
+	margin:4px 0 0;
+}
+.site-info .into-link img{
+	width:auto; 
+	height:28px; 
+	margin-left:7px;
+}
+.site-info .bz{
+	clear:both; 
+	margin:30px auto 0; 
+	width:267px; 
+	height:19px; 
+	background:url(/public/images/slogan2016.png) no-repeat center 0;
+}
+/* img{
+	 background: url(http://www.jq22.com/demo/jsloading-141022114841/images/loading.gif) 50% no-repeat;
+ }*/
+

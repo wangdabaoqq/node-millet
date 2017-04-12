@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>小米帐号登录</title>
+    <link href="http://olx5f4b93.bkt.clouddn.com/favicon.ico" rel="shortcut icon" />
+    <link href="/public/css/login.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="/public/js/register.js"></script>
+    <script src="http://static.geetest.com/static/tools/gt.js"></script>
+    <link rel="stylesheet" type="text/css" href="/public/css/register.css">
+    </head>
+    <body>
+    <div>
+        <h2>你养鱼呢,干了,哎呦我去,海量啊！</h2>
+    </div>
+        <hr>
+        <br>
+        <div>
+            <label for="username">用户名：</label>
+            <input class="inp lixi" id="username" placeholder="使用邮箱与手机号,呵呵" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="password">密码：</label>
+            <input class="inp mi" id="password"  placeholder="用个比较长的密码,知识点" type="password" >
+        </div>
+        <br>
+        <div>
+            <label for="password">重复密码：</label>
+            <input class="inp mi"  id="repassword" type="password" placeholder="再来一遍" >
+        </div>
+        <br>
+        <div>
+            <label>完成验证：</label>
+            <div id="captcha2">
+                <p id="wait2" class="show">正在加载验证码......</p>
+            </div>
+        </div>
+    <div class="www" style="display: none; color:#f56600;">
+        <div class="war" style="display: inline-block;"></div>
+    </div>
+    <br>
+        <p id="notice2" class="hide">请先完成验证</p>
+        <input class="btn" id="submit" type="submit" placeholder="爱点不点">
+        <br>
+        <a href="/api" style="background: #ff6700;" class="xian">已有帐号,马上登录</a>
+    </body>
+</html>

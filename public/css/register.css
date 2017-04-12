@@ -1,0 +1,77 @@
+
+body {
+    margin: 50px 0;
+    text-align: center;
+    font-family: "PingFangSC-Regular", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+
+.inp {
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 0 10px;
+    width: 278px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 35px;
+}
+
+.lixi{
+    background: #f4f4f4 url(http://olx5f4b93.bkt.clouddn.com/xia.png) 10px no-repeat  ;
+}
+.mi{
+    background: #f4f4f4 url(http://olx5f4b93.bkt.clouddn.com/suo.png) 10px no-repeat  ;
+}
+.btn {
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+    background: white linear-gradient(180deg, #ffffff 0%, #f3f3f3 100%);
+}
+
+.btn:hover {
+    background: white linear-gradient(0deg, #ffffff 0%, #f3f3f3 100%)
+}
+
+#captcha1,
+#captcha2 {
+    width: 325px;
+    display: inline-block;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#notice1,
+#notice2 {
+    color: red;
+}
+
+label {
+    vertical-align: top;
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    line-height: 40px;
+}
+
+#wait1, #wait2 {
+    text-align: left;
+    color: #666;
+    margin: 0;
+}
+.www{
+    height: 18px;
+    line-height: 35px;
+}
+.war{
+    display: inline-block;
+}

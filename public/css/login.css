@@ -1,0 +1,124 @@
+body{
+    background: #f5f5f5;
+    color: #757575;
+}
+.win_banner{
+    background: #fff;
+}
+.bor{
+    border: 1px solid red;
+}
+.aza{
+    display: inline-block;
+}
+#mm{
+    position:absolute;
+    left:0;
+    top:40px;
+    z-index: 3;
+    width: 140px;
+    margin: 0;
+    padding:7px 0;
+    list-style: none;
+    background: #fff;
+   /* box-shadow: 0 2px 10px rgba(0,0,0,0.15);*/
+}
+#mm li{
+    text-align: center;
+}
+.user{
+    position: relative;
+    width: 140px;
+    padding:0;
+    white-space: nowrap;
+}
+.xxa{
+    position: relative;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.xxa .message a,.xxa .link{
+    text-decoration: none;
+}
+.user,.message,.link-order, .xxa .sep{
+    float: left;
+}
+.sep{
+    margin: 0;
+}
+.message{
+    padding:0 10px;
+}
+.link-order{
+    width: 70px;
+}
+.link{
+    padding:0 5px;
+    text-align: center;
+}
+#mm a{
+    display: block;
+    padding: 3px 8px;
+    line-height: 2;
+    color:#424242;
+    transition: all .2s;
+    text-decoration: none;
+}
+#mm a:hover{
+    color:#ff6700;
+    background-color: #f5f5f5;
+    display: block;
+}
+.user_i{
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.username{
+    /*display: inline-block;*/
+    width: auto;
+    max-width: 140px;
+    /*text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;*/
+    _zoom:1;
+    /*vertical-align:text-bottom;*/
+
+}
+.xxa .user a{
+    text-decoration: none;
+}
+#shou li a:hover{
+    text-decoration: none;
+}
+.user-active{
+    background: #fff;
+    color:#ff6700;
+}
+.user-active .user_i:hover{
+    background: #fff;
+    color:#ff6700!important;
+}
+.text-top{
+    vertical-align: text-top;
+}
+/*验证*/
+ #inputCode{
+     display:inline-block;
+     vertical-align:middle;
+     width:60px;
+ }
+.mycode{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius:10px;
+    border:1px solid #999;
+    overflow:hidden;
+}
