@@ -221,7 +221,8 @@ mongoose.connect('mongodb://localhost:27016/xiaomi',function(err) {
         console.log('数据库连接失败');
     }else{
         console.log('数据库连接成功');
-        app.listen(80,'120.25.235.101');
+        app.listen(8080);
     }
 });
 
+module.exports = app;
