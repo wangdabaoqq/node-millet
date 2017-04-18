@@ -13,7 +13,7 @@
 
 3.启动项目 开启本地mongodb 找到mongodb bin目录cd 输入命令mongod --dbpath=你下载的这个项目的db目录 --port=27016端口(这里的端口我用的是27016端口,你可以配置别的,这个看你的我也不多说)
 
-4.运行项目  node app.js
+4.运行项目  npm start
 
 5.在浏览器上输出localhost:8080端口,如果你的本地8080端口被占用可以在app.js里面进行修改。
 
